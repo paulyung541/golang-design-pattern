@@ -1,6 +1,8 @@
 package templatemethod
 
-func ExampleHTTPDownloader() {
+import "testing"
+
+func TestHTTPDownloader(t *testing.T) {
 	var downloader Downloader = NewHTTPDownloader()
 
 	downloader.Download("http://example.com/abc.zip")

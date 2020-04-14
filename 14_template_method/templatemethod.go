@@ -2,6 +2,9 @@ package templatemethod
 
 import "fmt"
 
+// 提供 Downloader 作为通用对外接口
+// implement 接口作为多态实现，作为横向扩展
+
 type Downloader interface {
 	Download(uri string)
 }

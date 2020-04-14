@@ -24,3 +24,12 @@ func TestOperator(t *testing.T) {
 		t.Fatal("error with factory method pattern")
 	}
 }
+
+func TestTmp(t *testing.T) {
+	a := [...]int{}
+	b := [...]int{}
+
+	if a == b {
+		t.Log("equal")
+	}
+}

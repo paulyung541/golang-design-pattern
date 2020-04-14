@@ -1,7 +1,6 @@
 package factorymethod
 
 import (
-	"fmt"
 	"testing"
 )
 

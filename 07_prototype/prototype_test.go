@@ -9,7 +9,7 @@ type Type1 struct {
 }
 
 func (t *Type1) Clone() Cloneable {
-	tc := *t
+	tc := *t // 精髓，短变量赋值，拷贝了一个结构体
 	return &tc
 }
 
